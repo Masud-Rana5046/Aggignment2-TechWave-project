@@ -1,1 +1,66 @@
 
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+
+/* share style */
+.display-flex{
+
+    display: flex;
+}
+
+/* nav style */
+header{
+    background-color: #1A0B2E;
+    
+}
+.nav-container{
+    justify-content: space-between;
+    padding: 20px 180px;
+}
+.nav-container .nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+.nav-title .Wave{
+    color: #c405d7; 
+    /* color: linear-gradient( #f7e940, #c405d7 ); */
+    
+}
+.nav-menu{
+    margin-top: 15px;
+}
+.nav-menu .nav-menus {
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+.nav-menus li a{
+text-decoration: none;
+font-size: 1rem;
+color: #ffffff;
+font-weight: 600;
+}
+.btn{
+    
+   
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #f7e940 3%, #c405d7 90%);
+}
