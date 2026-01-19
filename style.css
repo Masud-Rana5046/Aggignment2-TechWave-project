@@ -107,9 +107,11 @@ bottom: 100px;
 }
 /* header content */
 .heder-content{
-    /* background-color: #190e38; */
+    background-color: #1A0B2E;
     text-align: center;
     margin-top: -170px;
+        margin-bottom: 100px;
+        padding-top: 40px;
 }
 .heder-content h2{
     font-size: 3.8rem;
@@ -129,4 +131,102 @@ bottom: 100px;
     border: 1px solid #00ff88;
     border-radius: 50px;
     margin-left: 5px;
+}
+/* about style */
+.about{
+    margin-top: -100px;
+    padding: 100px 180px;
+    background-color: #1a0b2e;
+}
+.about .about-content{
+    text-align: center;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #ffffff;
+}
+.about-content h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.about-content p{
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 28px;
+}
+.about-rating{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+
+}
+.rating{
+    text-align: center;
+
+}
+.rating h4{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00ff88;
+    margin-bottom: 15px;
+}
+.rating{
+    font-size: 1rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+/* choose section */
+.choose{
+    background-color: #230e3d;
+    padding: 100px 180px;
+}
+.choose h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.choose-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+.card-small{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.card-medium{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.card{
+    background-color: #2a0f4d;
+    border-radius: 20px;
+    
+}
+.card img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.card h4{
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.card p{
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 28px;
+}
+.card1{
+    padding: 100px 20px;
+    
+}
+.card2, .card3, .card4, .card5{
+    padding: 20px;
 }
