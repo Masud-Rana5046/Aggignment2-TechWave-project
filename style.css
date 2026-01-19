@@ -241,7 +241,7 @@ bottom: 100px;
     font-weight: 700;
     text-align: center;
     color: #ffffff;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .feature-cards{
     display: grid;
@@ -250,8 +250,8 @@ bottom: 100px;
 }
 .feature-card{
     background-color: #250d44;
-    border-radius: 8px;
-    padding: 10px;
+    border-radius: 10px;
+   padding: 10px;
 }
 .feature-card img{
     width: 20px;
