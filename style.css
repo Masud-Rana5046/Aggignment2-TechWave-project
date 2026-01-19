@@ -230,3 +230,30 @@ bottom: 100px;
 .card2, .card3, .card4, .card5{
     padding: 20px;
 }
+
+/* featured style */
+.featured{
+    background-color: #1a0b2e;
+    padding: 100px 180px;
+}
+.featured h2{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.feature-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.feature-card{
+    background-color: #250d44;
+    border-radius: 8px;
+    padding: 10px;
+}
+.feature-card img{
+    width: 20px;
+    height: 20px;
+}
