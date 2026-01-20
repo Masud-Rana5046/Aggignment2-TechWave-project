@@ -410,6 +410,9 @@ left: 300px;
 .choose{
     padding: 20px;
 }
+.choose h2{
+    font-size: 2rem;
+}
 .choose-card{
     
    
