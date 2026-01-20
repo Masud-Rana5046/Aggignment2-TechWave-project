@@ -424,5 +424,22 @@ left: 300px;
     grid-column: span 1;
     grid-row: span 1;
 }
+.featured{
+    padding: 20px;
+}
+.featured h2{
+    font-size: 2rem;
+}
+.feature-cards{
+    
+    grid-template-columns: repeat(1, 1fr);
+
+}
+.host{
+    padding: 20px;
+}
+.host-container{
+    flex-direction: column;
+}
     
 }
