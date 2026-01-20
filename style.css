@@ -353,7 +353,8 @@ position: relative;
     max-width: 35%;
    margin: 0 auto;
    text-align: left;
-   display: flex;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
    gap: 30px;
    list-style: none;
 }
@@ -440,6 +441,13 @@ left: 300px;
 }
 .host-container{
     flex-direction: column;
+}
+.footer{
+    padding: 20px;
+}
+.fotter-list{
+    
+    grid-template-columns: repeat(2, 1fr);
 }
     
 }
