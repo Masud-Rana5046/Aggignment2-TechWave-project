@@ -142,7 +142,17 @@ position: relative;
     border: 1px solid #00ff88;
     border-radius: 50px;
     margin-left: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.12 ease;
 }
+.heder-content .btn3:hover{
+    /* content: '';
+    position: absolute; */
+  color: #c405d7;
+    transform: scale(1.1)
+}
+
 /* about style */
 .about{
     margin-top: -100px;
