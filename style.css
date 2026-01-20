@@ -446,7 +446,7 @@ left: 300px;
     padding: 20px;
 }
 .fotter-list{
-    
+    max-width: 50%;
     grid-template-columns: repeat(2, 1fr);
 }
     
